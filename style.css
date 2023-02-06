@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/bg.png") no-repeat;
+  background-size: 100% 110vh;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+
+nav {
+  height: 14vh;
+  background: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.li:hover {
+  cursor: pointer;
+}
+
+nav ul div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul div li {
+  list-style: none;
+  margin: 8px 19px;
+}
+
+.line {
+  padding: 18px 1px;
+  background-color: #fff;
+  color: #fff;
+}
+
+/* Main section  */
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  text-align: center;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: 700;
+  word-spacing: 10px;
+  letter-spacing: 1.5px;
+}
+
+/* button  */
+
+button {
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 700px;
+  background-color: #ba0cc5;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ba0cc5;
+  background-color: #fff;
+  border: 2px solid #ba0cc5;
+}
+
+.btn-large {
+  margin-top: 30px;
+}
